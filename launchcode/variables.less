@@ -14,10 +14,10 @@
 @gray-light:             #b4bcc2;   // #999
 @gray-lighter:           #ecf0f1; // #eee
 
-@brand-primary:         #2C3E50;
-@brand-success:         #18BC9C;
-@brand-info:            #3498DB;
-@brand-warning:         #F39C12;
+@brand-primary:         #354a5f;
+@brand-success:         #61c08d;
+@brand-info:            #5c94ce;
+@brand-warning:         #f47753;
 @brand-danger:          #E74C3C;
 
 
@@ -31,7 +31,7 @@
 @text-color:            @brand-primary;
 
 //** Global textual link color.
-@link-color:            @brand-success;
+@link-color:            @brand-warning;
 //** Link hover color set via `darken()` function.
 @link-hover-color:      @link-color;
 //** Link hover decoration.
@@ -42,11 +42,11 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Monsterrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Arvo", "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
+@font-family-base:        @font-family-serif;
 
 @font-size-base:          15px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
@@ -65,8 +65,8 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    @font-family-base;
-@headings-font-weight:    400;
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    700;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 

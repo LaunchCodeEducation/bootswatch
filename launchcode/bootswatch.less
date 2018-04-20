@@ -2,12 +2,14 @@
 // Bootswatch
 // -----------------------------------------------------
 
-@web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic";
+@headline-font-path: "https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic,700italic";
+@body-font-path: "https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic";
 
 .web-font(@path) {
   @import url("@{path}");
 }
-.web-font(@web-font-path);
+.web-font(@headline-font-path);
+.web-font(@body-font-path);
 
 // Navbar =====================================================================
 
